@@ -15,11 +15,11 @@ int main ()
     if(SP > CP)
     {
         printf("Profit: %.2f\n", profit);
-        printf("Profit Percentage: %.2f%%\n", percentage);
+        printf("Profit Percentage: %.2f%%\n", -percentage);
     }
     else if(CP > SP)
     {
-        printf("Loss: %.2f\n", -profit);
+        printf("Loss: %.2f\n", profit);
         printf("Loss Percentage: %.2f%%\n", -percentage);
     }
     else
