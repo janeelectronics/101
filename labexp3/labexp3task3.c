@@ -16,9 +16,9 @@ int main() {
 
 
     if (age < 5) {
-        final_price = 0.0; // Free for toddlers
+        final_price = 0.0;
         printf("Category: Toddler (100%% Discount)\n");
-    } else if (age <= 12) {
+    } else if (age <= 13) {
         final_price = base_price * 0.5;
         printf("Category: Child (50%% Discount)\n");
     } else if (age >= 60) {
